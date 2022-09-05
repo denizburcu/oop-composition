@@ -9,9 +9,7 @@ public class Main {
         Motherboard motherboard = new Motherboard("BJ-200" , "Asus", 4, 6, "v2.44");
 
         Pc thePc = new Pc(theCase,monitor,motherboard);
-        thePc.getMonitor().drawPixelArt(1500, 1200, "red");
-        thePc.getMotherboard().loadProgram("windows 1.0");
-        thePc.getTheCase().pressPowerButton();
+        thePc.powerUp();
 
     }
 
