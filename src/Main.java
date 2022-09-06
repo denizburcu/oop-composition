@@ -13,21 +13,23 @@ public class Main {
         Pc thePc = new Pc(theCase,monitor,motherboard);
 
 
-        Wall wall1 = new Wall("West");
-        Wall wall2 = new Wall("East");
-        Wall wall3 = new Wall("South");
-        Wall wall4 = new Wall("North");
+        //Wall wall1 = new Wall("West");
+        //Wall wall2 = new Wall("East");
+        //Wall wall3 = new Wall("South");
+        //Wall wall4 = new Wall("North");
 
-        Ceiling ceiling = new Ceiling(12, 55);
+        //Ceiling ceiling = new Ceiling(12, 55);
 
-        Bed bed = new Bed("Modern", 4,3, 2 ,1);
+        //Bed bed = new Bed("Modern", 4,3, 2 ,1);
 
-        Lamb lamb = new Lamb("Classic", false, 75);
+        //Lamb lamb = new Lamb("Classic", false, 75);
 
-        Bedroom bedroom = new Bedroom("Tims room", wall1, wall2, wall3, wall4, ceiling, bed, lamb);
-        bedroom.makeBed();
+       // Bedroom bedroom = new Bedroom("Tims room", wall1, wall2, wall3, wall4, ceiling, //bed, lamb);
+       // bedroom.makeBed();
 
-        bedroom.getLamb().turnOn();
+       // bedroom.getLamb().turnOn();
     }
+
+
 
 }
